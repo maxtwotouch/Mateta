@@ -1,5 +1,5 @@
 // src/routes/Feed.tsx
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 const posts = [
   'https://www.instagram.com/p/DIg_OFusGJO/',
@@ -11,9 +11,18 @@ const posts = [
  'https://www.instagram.com/p/C6hMyckL6WR/?img_index=3',
  'https://www.instagram.com/p/C6bKCxeLM-X/?img_index=1',
  'https://www.instagram.com/p/C6ZcyfPLVcz/?img_index=1',
- 
-];
 
+];
+declare global {
+    interface Window {
+      instgrm?: {
+        Embeds: {
+          process: () => void;
+        };
+      };
+    }
+  }
+  
 export default function Feed() {
     useEffect(() => {
       // Inject Instagram's embed.js if needed
