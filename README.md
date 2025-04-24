@@ -37,8 +37,8 @@ A custom **Vite + React + TypeScript** web app featuring **React Router** and **
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/sailguide.git
-   cd sailguide
+   git clone https://github.com/your-username/mateta.git
+   cd Mateta
    ```
 
 2. **Install dependencies**

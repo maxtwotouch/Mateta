@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './routes/Home';
 import About from './routes/About';
 import Anchorage from './routes/Anchorage';
+import Feed from './routes/Feed'; 
 
 export default function App() {
   return (
@@ -17,10 +18,11 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/anchorages/:id" element={<Anchorage />} />
+          <Route path="/feed" element={<Feed />} />
         </Routes>
       </main>
 
       <Footer />
     </div>
   );
-}
+} 
