@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Vite local cache
+.vite/
+
+# Env files
+.env
+.env.local
+
+# macOS metadata
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Lock files
+package-lock.json
+yarn.lock
+
+# System
+Thumbs.db
+
+# Test coverage
+coverage/
